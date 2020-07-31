@@ -22,7 +22,6 @@
 		FD01ACC624D0F94000BC6864 /* BlogFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD01ACC524D0F94000BC6864 /* BlogFourViewController.swift */; };
 		FD01ACC824D0F95C00BC6864 /* NearbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD01ACC724D0F95C00BC6864 /* NearbyViewController.swift */; };
 		FD31BA2324D2A41A00D25177 /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31BA2224D2A41A00D25177 /* LinksViewController.swift */; };
-		FD6BB7FD24D371640038BF19 /* fp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6BB7FC24D371640038BF19 /* fp.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +42,6 @@
 		FD01ACC524D0F94000BC6864 /* BlogFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogFourViewController.swift; sourceTree = "<group>"; };
 		FD01ACC724D0F95C00BC6864 /* NearbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyViewController.swift; sourceTree = "<group>"; };
 		FD31BA2224D2A41A00D25177 /* LinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksViewController.swift; sourceTree = "<group>"; };
-		FD6BB7FC24D371640038BF19 /* fp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = fp.storyboard; path = ../../../Desktop/fp.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,6 @@
 		5E2CEA0024D09E2B0031ACDE = {
 			isa = PBXGroup;
 			children = (
-				FD6BB7FC24D371640038BF19 /* fp.storyboard */,
 				5E2CEA0B24D09E2B0031ACDE /* FinalProject */,
 				5E2CEA0A24D09E2B0031ACDE /* Products */,
 			);
@@ -157,7 +154,6 @@
 			files = (
 				5E2CEA1C24D09E310031ACDE /* LaunchScreen.storyboard in Resources */,
 				5E2CEA1924D09E310031ACDE /* Assets.xcassets in Resources */,
-				FD6BB7FD24D371640038BF19 /* fp.storyboard in Resources */,
 				5E2CEA1424D09E2B0031ACDE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

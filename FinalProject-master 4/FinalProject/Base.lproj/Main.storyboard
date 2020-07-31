@@ -15,15 +15,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1e-0R-lAx">
-                                <rect key="frame" x="86" y="746" width="262" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="30"/>
-                                <state key="normal" title="BEGIN MY SEARCH"/>
-                                <connections>
-                                    <segue destination="Dj6-hv-2Ss" kind="show" id="GSu-RG-VWa"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Access scholarships and other educational resources! " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WRZ-8J-wmI">
                                 <rect key="frame" x="53" y="358" width="309" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -38,6 +29,15 @@
                                 <color key="textColor" red="0.93547368049621582" green="0.44579814776156074" blue="0.34936047157952532" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1e-0R-lAx">
+                                <rect key="frame" x="76" y="740" width="262" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="30"/>
+                                <state key="normal" title="BEGIN MY SEARCH"/>
+                                <connections>
+                                    <segue destination="Dj6-hv-2Ss" kind="show" id="GSu-RG-VWa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99997597930000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -1079,7 +1079,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsU-k2-ACh">
                                                 <rect key="frame" x="8" y="539" width="398" height="961"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Having gone through the college application myself, I know it can be a long and difficult process. Not only do you have to juggle with your AP classes (if you are taking them), you may also need to juggle with school sports, and Senior year activities. But have no fear because I’m here to help!
+                                                <string key="text">Having gone through the college application myself, I know it can be a long and difficult process. Not only do you have to juggle with your AP classes (if you are taking them), you may also need to juggle with school sports, and Senior year activities. But have no fear because I’m here to help!
 
 Here are some things I wish I had known before applying to college:
 Start your applications as soon as possible!
@@ -1098,7 +1098,7 @@ Research schools you want to apply to and your majors if you already have one in
 
 Look and Apply for as Many Scholarships as possible 
 College can be super expensive. You have to pay for tuition, room and board, meal plans, and textbooks you may need. Apply for as many scholarships if you can. Some scholarship applications may require one or two supplements so make sure you make time for that. Even if you don’t receive a specific scholarship, don’t give up! Move onto the next one. 
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1540,8 +1540,8 @@ College can be super expensive. You have to pay for tuition, room and board, mea
         <scene sceneID="dCA-kJ-2iQ">
             <objects>
                 <viewController id="Y7S-JU-nUR" customClass="BlogThreeViewController" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="59Y-r8-hOz">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                    <view key="view" contentMode="scaleToFill" id="59Y-r8-hOz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1446"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sh8-UI-5Jj">
@@ -1553,37 +1553,19 @@ College can be super expensive. You have to pay for tuition, room and board, mea
                                     <segue destination="Dj6-hv-2Ss" kind="show" id="fNa-qE-NSR"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AkN-rB-h6X">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="854"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0XX-og-Xkz">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1500" id="VSt-lX-4ff"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="0XX-og-Xkz" firstAttribute="bottom" secondItem="EhQ-kw-rxK" secondAttribute="bottom" id="3Tz-Qh-d2u"/>
-                                    <constraint firstItem="EhQ-kw-rxK" firstAttribute="trailing" secondItem="0XX-og-Xkz" secondAttribute="trailing" id="ac6-Qp-5hQ"/>
-                                    <constraint firstItem="0XX-og-Xkz" firstAttribute="top" secondItem="EhQ-kw-rxK" secondAttribute="top" id="uWa-8S-H7d"/>
-                                    <constraint firstItem="0XX-og-Xkz" firstAttribute="leading" secondItem="EhQ-kw-rxK" secondAttribute="leading" id="wti-gT-LL8"/>
-                                </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="5sZ-LR-1St"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="EhQ-kw-rxK"/>
-                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What You Should Know Before Applying To College " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jmu-m9-NFO">
+                                <rect key="frame" x="78" y="1231" width="259" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="AkN-rB-h6X" firstAttribute="trailing" secondItem="Cha-zu-b7W" secondAttribute="trailing" id="OYt-RD-AeK"/>
-                            <constraint firstAttribute="bottom" secondItem="AkN-rB-h6X" secondAttribute="bottom" id="PL4-J9-UbO"/>
-                            <constraint firstItem="AkN-rB-h6X" firstAttribute="leading" secondItem="Cha-zu-b7W" secondAttribute="leading" id="cpl-eH-uB4"/>
-                            <constraint firstItem="AkN-rB-h6X" firstAttribute="top" secondItem="Cha-zu-b7W" secondAttribute="top" id="gMH-kF-WgQ"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Cha-zu-b7W"/>
                     </view>
                     <navigationItem key="navigationItem" id="P63-DQ-QOK"/>
+                    <size key="freeformSize" width="414" height="1500"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HQb-9A-RZ9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1613,26 +1595,12 @@ College can be super expensive. You have to pay for tuition, room and board, mea
                                     <segue destination="Dj6-hv-2Ss" kind="show" id="2cL-6d-X7k"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="blog 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WDb-2A-fPG">
-                                <rect key="frame" x="93" y="304" width="49" height="123"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t3z-e5-TN4">
                                 <rect key="frame" x="8" y="435" width="398" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">The Gates Scholarship (TGS) is a highly selective, last-dollar scholarship for outstanding, minority, high school seniors from low-income households. Each year, the scholarship is awarded to 300 of these student leaders, with the intent of helping them realize their maximum potential.
 </string>
                                 <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="13"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What You Should Know Before Applying To College " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jmu-m9-NFO">
-                                <rect key="frame" x="16" y="595" width="259" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1692,7 +1660,8 @@ College can be super expensive. You have to pay for tuition, room and board, mea
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ErH-L2-6Jv"/>
+        <segue reference="XKv-OE-yzs"/>
+        <segue reference="fNa-qE-NSR"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="alex-samuels-bKSMXbqGN24-unsplash" width="3840" height="5760"/>
