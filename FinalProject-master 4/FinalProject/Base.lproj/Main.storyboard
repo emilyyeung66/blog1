@@ -16,30 +16,30 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Access scholarships and other educational resources! " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WRZ-8J-wmI">
-                                <rect key="frame" x="53" y="358" width="309" height="180"/>
+                                <rect key="frame" x="55" y="75" width="305" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SLIPS " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JG2-qL-bxD">
-                                <rect key="frame" x="85" y="102" width="245" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="40"/>
-                                <color key="textColor" red="0.93547368049621582" green="0.44579814776156074" blue="0.34936047157952532" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="1" green="0.94509803921568625" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Charter-Italic" family="Charter" pointSize="20"/>
+                                <color key="textColor" red="0.94669848680000002" green="0.58521538969999998" blue="0.55292695759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1e-0R-lAx">
-                                <rect key="frame" x="76" y="740" width="262" height="49"/>
+                                <rect key="frame" x="89" y="748" width="236" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="30"/>
-                                <state key="normal" title="BEGIN MY SEARCH"/>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="27"/>
+                                <state key="normal" title="BEGIN MY SEARCH">
+                                    <color key="titleColor" red="0.94669848680000002" green="0.58521538969999998" blue="0.55292695759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <segue destination="Dj6-hv-2Ss" kind="show" id="GSu-RG-VWa"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sliplogo" translatesAutoresizingMaskIntoConstraints="NO" id="dGP-Iy-o1D">
+                                <rect key="frame" x="62" y="388" width="298" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.99997597930000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="1" green="0.94509803921568625" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -65,7 +65,7 @@
                                 <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="28"/>
                                 <state key="normal" backgroundImage="vasily-koloda-8CqDvPuo_kI-unsplash"/>
                                 <connections>
-                                    <segue destination="Y7S-JU-nUR" kind="show" id="XKv-OE-yzs"/>
+                                    <segue destination="oX4-e5-K7v" kind="show" id="RnC-4S-Kmd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="umK-Z2-YSx">
@@ -348,6 +348,24 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qiu-n9-Fou">
                                 <rect key="frame" x="212" y="348" width="6" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">|
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyB-Vv-YXn">
+                                <rect key="frame" x="211" y="382" width="6" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">|
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rm-A8-FTp">
+                                <rect key="frame" x="211" y="396" width="6" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">|
 </string>
@@ -1015,6 +1033,15 @@
                                     <segue destination="MVh-Kc-7Nt" kind="show" id="UcN-Qz-KuH"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cur-4V-SY4">
+                                <rect key="frame" x="211" y="410" width="6" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">|
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99997597930000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="wvZ-8g-M6s"/>
@@ -1536,40 +1563,133 @@ College can be super expensive. You have to pay for tuition, room and board, mea
             </objects>
             <point key="canvasLocation" x="2092.753623188406" y="81.696428571428569"/>
         </scene>
-        <!--Blog Three View Controller-->
-        <scene sceneID="dCA-kJ-2iQ">
+        <!--View Controller-->
+        <scene sceneID="cFU-dZ-acf">
             <objects>
-                <viewController id="Y7S-JU-nUR" customClass="BlogThreeViewController" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="59Y-r8-hOz">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1446"/>
+                <viewController id="oX4-e5-K7v" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y81-4i-IYQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sh8-UI-5Jj">
-                                <rect key="frame" x="20" y="37" width="26" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
-                                <state key="normal" backgroundImage="back "/>
-                                <connections>
-                                    <segue destination="Dj6-hv-2Ss" kind="show" id="fNa-qE-NSR"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What You Should Know Before Applying To College " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jmu-m9-NFO">
-                                <rect key="frame" x="78" y="1231" width="259" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I3O-wk-LuB">
+                                <rect key="frame" x="11" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="VmZ-Dw-a2m">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Kc-bj-Y57">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhc-o1-zel">
+                                                        <rect key="frame" x="166" y="126" width="0.0" height="0.0"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Important Dates and Deadlines for 2021-2022 " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBj-cO-pxM">
+                                                        <rect key="frame" x="5" y="19" width="401" height="68"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="21"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="By Our Editor: Tiffany Wang" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LnH-Xw-Oeo">
+                                                        <rect key="frame" x="-41" y="58" width="505" height="68"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" text="_____________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lj2-cf-K8P">
+                                                        <rect key="frame" x="0.0" y="357" width="451.99999999999994" height="62.000000000000028"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blog1pic" translatesAutoresizingMaskIntoConstraints="NO" id="Npb-8b-SHH">
+                                                        <rect key="frame" x="17" y="146" width="389" height="237"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J4v-YG-0tw">
+                                                        <rect key="frame" x="29" y="310" width="357" height="362"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">Aid: 
+
+FAFSA applications will be open on October 1st until June 30th. You are able to make changes after submitting. Once you finalize your FAFSA application, there’s an option to transfer over to TAP. Disclaimer: You can only work on TAP when you’re done with FAFSA. TAP’s due date is the same as FAFSA. </string>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" text="_____________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cij-jg-cvY">
+                                                        <rect key="frame" x="0.0" y="86" width="451.99999999999994" height="62.000000000000028"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWc-Hv-3Nb">
+                                                        <rect key="frame" x="5" y="28" width="21" height="29"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                                        <state key="normal" backgroundImage="back "/>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="0.99997597930000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="600" id="DiQ-YM-zv6"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jLW-RI-4mP">
+                                                <rect key="frame" x="0.0" y="600" width="414" height="600"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i3z-kV-zEu">
+                                                        <rect key="frame" x="29" y="-24" width="357" height="560"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <mutableString key="text">College Application:
+
+The priority deadline for CUNY is on February 1st for the fall semester while spring semester deadline is September 15th. For the CUNY application you can choose up to 6 colleges and pay a single application through a special code. Both SUNY and CUNY'S applications have the same requirements. However, SUNY priority deadlines are on November 1st and you have to pay for each college you are applying for. Private colleges also follow the SUNY format and their deadlines are normally on January 1st through the common app. If you are unable to meet these deadlines I recommend you to notify them before the due date.
+In between the month of March and April, the results for college decisions will come out so make sure to always check your emails for updates. Sometimes colleges can send their decisions earlier depending on what kind of decision you applied for. For example: early decision or early action deadlines are earlier and their results come out faster compared to regular decisions. On May 1st that's the national college decision day, the final deadline of picking your college.
+</mutableString>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="0.99997597930000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="600" id="OQu-Pl-eaT"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="VmZ-Dw-a2m" firstAttribute="width" secondItem="XOJ-XO-grN" secondAttribute="width" id="7ZM-4X-Fx9"/>
+                                    <constraint firstItem="VmZ-Dw-a2m" firstAttribute="top" secondItem="MU2-qg-1Nc" secondAttribute="top" id="9jb-kC-RTl"/>
+                                    <constraint firstItem="VmZ-Dw-a2m" firstAttribute="leading" secondItem="MU2-qg-1Nc" secondAttribute="leading" id="P6m-d5-Bz8"/>
+                                    <constraint firstItem="VmZ-Dw-a2m" firstAttribute="trailing" secondItem="MU2-qg-1Nc" secondAttribute="trailing" id="d4d-5P-m7r"/>
+                                    <constraint firstItem="VmZ-Dw-a2m" firstAttribute="bottom" secondItem="MU2-qg-1Nc" secondAttribute="bottom" id="uoH-Tn-Vir"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="MU2-qg-1Nc"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="XOJ-XO-grN"/>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="Cha-zu-b7W"/>
+                        <constraints>
+                            <constraint firstItem="I3O-wk-LuB" firstAttribute="leading" secondItem="iOs-ob-djZ" secondAttribute="leading" id="ILl-qO-q3T"/>
+                            <constraint firstItem="I3O-wk-LuB" firstAttribute="top" secondItem="y81-4i-IYQ" secondAttribute="top" id="UtQ-YP-9gI"/>
+                            <constraint firstAttribute="bottom" secondItem="I3O-wk-LuB" secondAttribute="bottom" id="YD7-v3-j03"/>
+                            <constraint firstItem="I3O-wk-LuB" firstAttribute="trailing" secondItem="iOs-ob-djZ" secondAttribute="trailing" id="ZKq-ZR-gFe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iOs-ob-djZ"/>
                     </view>
-                    <navigationItem key="navigationItem" id="P63-DQ-QOK"/>
-                    <size key="freeformSize" width="414" height="1500"/>
+                    <navigationItem key="navigationItem" id="zDz-Ax-SP6"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HQb-9A-RZ9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C86-w0-2pz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="86.956521739130437" y="1016.5178571428571"/>
+            <point key="canvasLocation" x="479.71014492753625" y="918.75"/>
         </scene>
         <!--Blog Four View Controller-->
         <scene sceneID="vGZ-ry-8xl">
@@ -1579,13 +1699,6 @@ College can be super expensive. You have to pay for tuition, room and board, mea
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="blog 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCr-yb-KKX">
-                                <rect key="frame" x="186" y="122" width="49" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wIg-n2-HLZ">
                                 <rect key="frame" x="20" y="37" width="26" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1595,60 +1708,287 @@ College can be super expensive. You have to pay for tuition, room and board, mea
                                     <segue destination="Dj6-hv-2Ss" kind="show" id="2cL-6d-X7k"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t3z-e5-TN4">
-                                <rect key="frame" x="8" y="435" width="398" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The Gates Scholarship (TGS) is a highly selective, last-dollar scholarship for outstanding, minority, high school seniors from low-income households. Each year, the scholarship is awarded to 300 of these student leaders, with the intent of helping them realize their maximum potential.
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hvr-4f-F31">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kTq-ej-I95">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1400"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ooy-Q5-0cN">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Essay Topics To Avoid!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Apq-UA-OQg">
+                                                        <rect key="frame" x="0.0" y="19" width="414" height="51.5"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="21"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" text="_____________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jl9-Pa-b15">
+                                                        <rect key="frame" x="0.0" y="65" width="451.99999999999994" height="62.000000000000028"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yo5-Wv-DOQ">
+                                                        <rect key="frame" x="29" y="436" width="357" height="213"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">Every year, admission officers get thousands of applicants and applicant essays.Your essay should be about you and no one else. In a way, it is a reflection of you as a person and how you have grown. You don’t want to write an essay that they have read a thousand times. Also remember they are reading hundreds at a time, so make sure your essay is simple and easy to follow. 
+Here are some topics you shouldn’t write about:
 </string>
-                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="13"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. Tragedies" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSU-GZ-jfA">
+                                                        <rect key="frame" x="17" y="616" width="119" height="52"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="18"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCf-Ne-cWy">
+                                                        <rect key="frame" x="29" y="619" width="357" height="213"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">In your essay, you do not want to talk about tragedies you have lived through, like a grandparent’s death, or a loss of a friend. You should not be writing a sob story. You don’t want the admissions officers to pity you. Instead, write about how you overcame that tragedy and what you learned from the situation, or how it helped you grow. 
+</string>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="By Our Editor: Chelsea Lum" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R5C-0p-9Ib">
+                                                        <rect key="frame" x="-45" y="49" width="505" height="42"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Messages Image(1670698163)" translatesAutoresizingMaskIntoConstraints="NO" id="OnJ-jr-LrU">
+                                                        <rect key="frame" x="-15" y="114" width="448" height="300"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" text="_____________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBL-ax-fLM">
+                                                        <rect key="frame" x="-18" y="394" width="451.99999999999994" height="62.000000000000028"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPk-55-cDc">
+                                                        <rect key="frame" x="23" y="37" width="26" height="41"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                                        <state key="normal" backgroundImage="back "/>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="0.99997597930000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="800" id="Phv-vL-pwp"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gzl-cQ-RFq">
+                                                <rect key="frame" x="0.0" y="800" width="414" height="600"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2. Mission Trips " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSS-y5-do9">
+                                                        <rect key="frame" x="22" y="-12" width="148" height="52"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="18"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CRN-ew-gfm">
+                                                        <rect key="frame" x="29" y="8" width="357" height="88"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">Admission officers don’t want to hear about how great your mission trip to Costa Rica was. This essay topic is the most boring and cliche one there is. </string>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3. A Glorified Resume" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tRr-5l-fkd">
+                                                        <rect key="frame" x="22" y="85" width="199" height="52"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="18"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rrG-Py-yWw">
+                                                        <rect key="frame" x="29" y="110" width="357" height="226"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <mutableString key="text">It’s great that you may have an internship at a clinic, or a job at a certain company. However, your essay should not be a glorified resume of what you have done during the past four years. That is what your resume and the extracurricular section of the Common Application is for. You may come off as too pretentious or conceited. Although you may want to show off your hard work, write about it in your student resume. Your essay should showcase your personality and offer insight into the type of person you are.</mutableString>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4. Sports " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZkK-AB-A0e">
+                                                        <rect key="frame" x="-29" y="325" width="199" height="52"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="18"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mqn-tv-RZo">
+                                                        <rect key="frame" x="29" y="358" width="357" height="88"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">This essay topic has probably been written about a million times. Everyone has played a sport in their lives at some point, so this is nothing special to admissions officers. They are looking for a more unique topic. </string>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="600" id="wQn-0v-cZ8"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="kTq-ej-I95" firstAttribute="bottom" secondItem="3QK-RE-xL6" secondAttribute="bottom" id="IIt-F3-OGA"/>
+                                    <constraint firstItem="kTq-ej-I95" firstAttribute="leading" secondItem="3QK-RE-xL6" secondAttribute="leading" id="SEF-eN-onH"/>
+                                    <constraint firstItem="3QK-RE-xL6" firstAttribute="top" secondItem="kTq-ej-I95" secondAttribute="top" id="dom-p6-XNv"/>
+                                    <constraint firstItem="kTq-ej-I95" firstAttribute="width" secondItem="h4x-K6-X3u" secondAttribute="width" id="fHb-u2-bN5"/>
+                                    <constraint firstItem="kTq-ej-I95" firstAttribute="trailing" secondItem="3QK-RE-xL6" secondAttribute="trailing" id="n1f-au-rZq"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="3QK-RE-xL6"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="h4x-K6-X3u"/>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Hvr-4f-F31" firstAttribute="top" secondItem="lTG-RN-pVd" secondAttribute="top" id="7Ss-jd-Cci"/>
+                            <constraint firstAttribute="bottom" secondItem="Hvr-4f-F31" secondAttribute="bottom" id="Ko9-pO-sYp"/>
+                            <constraint firstItem="Hvr-4f-F31" firstAttribute="trailing" secondItem="lTG-RN-pVd" secondAttribute="trailing" id="fjU-uL-vnP"/>
+                            <constraint firstItem="Hvr-4f-F31" firstAttribute="leading" secondItem="lTG-RN-pVd" secondAttribute="leading" id="sgy-YE-fio"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="lTG-RN-pVd"/>
                     </view>
                     <navigationItem key="navigationItem" id="lR9-DY-rs3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vk0-Rp-1zV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1606" y="1029"/>
+            <point key="canvasLocation" x="1605.7971014492755" y="1027.9017857142858"/>
         </scene>
         <!--Blog One View Controller-->
         <scene sceneID="4KK-U8-Uf8">
             <objects>
                 <viewController id="0ul-aW-pho" customClass="BlogOneViewController" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="CXv-Is-MRg">
+                    <view key="view" contentMode="scaleToFill" id="CXv-Is-MRg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RaK-0K-Uea">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mcc-sj-nEY">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P9Y-4J-zJy">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1500" id="3gp-zF-9hw"/>
-                                        </constraints>
-                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="NDz-r7-5dy">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1400"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LGb-rg-lSV">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My College Application Experience" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9i-vY-rwr">
+                                                        <rect key="frame" x="0.0" y="35" width="414" height="26"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="21"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="By Our Editor: Emily Yeung " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jve-ZH-d9o">
+                                                        <rect key="frame" x="-45" y="48" width="505" height="68"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" text="_____________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DUh-jE-3PB">
+                                                        <rect key="frame" x="0.0" y="69" width="451.99999999999994" height="62.000000000000028"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" text="_____________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDt-tI-pvq">
+                                                        <rect key="frame" x="-10" y="332" width="451.99999999999994" height="62.000000000000028"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="do6-XL-LuR">
+                                                        <rect key="frame" x="13" y="391" width="389" height="401"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <mutableString key="text">The college process is definitely an overwhelming time for most high school students. I remember the summer before my senior year. I had no clue on what I wanted to major in. One day I wanted to be a doctor, and the next day I'd want to be an engineer. My lack of guidance would prevent me from taking the next step in planning out my future. I started going to my college and guidance counselor for help and more information about deadlines. I began exploring different areas of study I’d be interested in, the cost, what life would be like after graduation, and literally anything I could think of at the time. 
+
+What I wish someone told me before applying for college: 
+-the environment of the school is very important and a major component
+-getting your application in early usually meant hearing your decision back earlier
+-Narrow down your options (academic programs offered, clubs, location, cost, etc) 
+
+</mutableString>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="85" translatesAutoresizingMaskIntoConstraints="NO" id="OHW-hi-DoJ">
+                                                        <rect key="frame" x="35" y="139" width="344" height="197"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iW9-qA-044">
+                                                        <rect key="frame" x="8" y="35" width="21" height="29"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                                        <state key="normal" backgroundImage="back "/>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="800" id="sRu-p3-wnW"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nWc-pK-7dm">
+                                                <rect key="frame" x="0.0" y="800" width="414" height="600"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baT-Zd-GZS">
+                                                        <rect key="frame" x="13" y="-56" width="389" height="443"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <mutableString key="text">I applied early action to all the schools that offered it, and submitted my other applications way before the regular decision deadline. I made sure to have some schools in each category: reach, target, and safety. Ultimately, I knew that NYU and Stanford were my dream schools, but there was only one school that I could apply ED (early-decision) to. I applied ED to NYU because of the amount of global study away sites NYU offered and because I wanted to remain in the city. These were just some aspects of what was important to me, and what I thought would be the best fit for my studies. I received acceptances for most of the schools I applied to, interviews for schools like Stanford, UMichigan, etc, and also received rejections. I eventually decided to attend NYU Shanghai because of its strong global academic programs, the student life, and the location. Looking back, what mattered most to me is if I would be happy at a certain school. My best tip for you is to find out the aspects that are important to YOU, and to narrow down your search from there! 
+I know it is a stressful time, but it will all be worth it in the end :)
+</mutableString>
+                                                        <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ddbbed13fd7874e79a75e931f34d7253" translatesAutoresizingMaskIntoConstraints="NO" id="rBn-QE-Edw">
+                                                        <rect key="frame" x="87" y="383" width="240" height="128"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="600" id="WZ9-CS-2IO"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="P9Y-4J-zJy" firstAttribute="leading" secondItem="nj2-rz-tgo" secondAttribute="leading" id="KgV-8L-LU4"/>
-                                    <constraint firstItem="P9Y-4J-zJy" firstAttribute="trailing" secondItem="nj2-rz-tgo" secondAttribute="trailing" id="QOe-dv-ohL"/>
-                                    <constraint firstItem="P9Y-4J-zJy" firstAttribute="top" secondItem="nj2-rz-tgo" secondAttribute="top" id="Qqg-qI-z1A"/>
-                                    <constraint firstItem="P9Y-4J-zJy" firstAttribute="bottom" secondItem="nj2-rz-tgo" secondAttribute="bottom" id="kCc-SZ-B15"/>
+                                    <constraint firstItem="NDz-r7-5dy" firstAttribute="width" secondItem="UQm-uZ-3rg" secondAttribute="width" id="7vF-4z-KlV"/>
+                                    <constraint firstItem="NDz-r7-5dy" firstAttribute="bottom" secondItem="3B2-Jl-MMc" secondAttribute="bottom" id="8xn-km-5Zv"/>
+                                    <constraint firstItem="NDz-r7-5dy" firstAttribute="trailing" secondItem="3B2-Jl-MMc" secondAttribute="trailing" id="WC4-Kj-XIp"/>
+                                    <constraint firstItem="NDz-r7-5dy" firstAttribute="top" secondItem="3B2-Jl-MMc" secondAttribute="top" id="fa7-4z-qYg"/>
+                                    <constraint firstItem="NDz-r7-5dy" firstAttribute="leading" secondItem="3B2-Jl-MMc" secondAttribute="leading" id="v5y-at-r9M"/>
                                 </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="Zs8-pW-dzQ"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="nj2-rz-tgo"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="3B2-Jl-MMc"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="UQm-uZ-3rg"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="RaK-0K-Uea" firstAttribute="top" secondItem="Yah-af-EF5" secondAttribute="top" id="Nsk-XQ-sqB"/>
-                            <constraint firstItem="RaK-0K-Uea" firstAttribute="trailing" secondItem="Yah-af-EF5" secondAttribute="trailing" id="Q4h-QB-leD"/>
-                            <constraint firstItem="RaK-0K-Uea" firstAttribute="leading" secondItem="Yah-af-EF5" secondAttribute="leading" id="aOC-GE-6Fe"/>
-                            <constraint firstAttribute="bottom" secondItem="RaK-0K-Uea" secondAttribute="bottom" id="r8c-Nl-YUh"/>
+                            <constraint firstAttribute="bottom" secondItem="Mcc-sj-nEY" secondAttribute="bottom" id="9KP-Sa-sXI"/>
+                            <constraint firstItem="Mcc-sj-nEY" firstAttribute="trailing" secondItem="Yah-af-EF5" secondAttribute="trailing" id="XIH-4C-lD7"/>
+                            <constraint firstItem="Mcc-sj-nEY" firstAttribute="top" secondItem="Yah-af-EF5" secondAttribute="top" id="idk-c4-tFq"/>
+                            <constraint firstItem="Mcc-sj-nEY" firstAttribute="leading" secondItem="Yah-af-EF5" secondAttribute="leading" id="nR8-al-0My"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Yah-af-EF5"/>
                     </view>
@@ -1656,19 +1996,23 @@ College can be super expensive. You have to pay for tuition, room and board, mea
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HPe-zk-gHu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="366.66666666666669" y="-1309.1517857142856"/>
+            <point key="canvasLocation" x="260.86956521739131" y="-897.32142857142856"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="XKv-OE-yzs"/>
-        <segue reference="fNa-qE-NSR"/>
+        <segue reference="2cL-6d-X7k"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="85" width="1200" height="857"/>
+        <image name="Messages Image(1670698163)" width="1200" height="675"/>
         <image name="alex-samuels-bKSMXbqGN24-unsplash" width="3840" height="5760"/>
         <image name="alex-samuels-bKSMXbqGN24-unsplash-1" width="5184" height="3456"/>
         <image name="back " width="26" height="42"/>
+        <image name="blog1pic" width="700" height="368"/>
         <image name="blog3pic" width="4207" height="2366"/>
+        <image name="ddbbed13fd7874e79a75e931f34d7253" width="1122" height="1122"/>
         <image name="jaeyoung-geoffrey-kang-IdhfwYkPGAs-unsplash-1" width="3208" height="4812"/>
+        <image name="sliplogo" width="411" height="255"/>
         <image name="vasily-koloda-8CqDvPuo_kI-unsplash" width="2626" height="1751"/>
     </resources>
 </document>
